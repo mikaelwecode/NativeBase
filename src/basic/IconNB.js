@@ -7,8 +7,6 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import Entypo from "react-native-vector-icons/Entypo";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import Feather from "react-native-vector-icons/Feather";
-import FontAwesome from "react-native-vector-icons/FontAwesome";
-import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import Foundation from "react-native-vector-icons/Foundation";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
@@ -41,12 +39,6 @@ class IconNB extends Component {
         break;
       case "Feather":
         this.Icon = Feather;
-        break;
-      case "FontAwesome":
-        this.Icon = FontAwesome;
-        break;
-      case "FontAwesome5":
-        this.Icon = FontAwesome5;
         break;
       case "Foundation":
         this.Icon = Foundation;
@@ -99,9 +91,7 @@ IconNB.propTypes = {
     "AntDesign",
     "Entypo",
     "EvilIcons",
-    "Feather",
-    "FontAwesome",
-    "FontAwesome5",
+    "Feather"
     "Foundation",
     "Ionicons",
     "MaterialCommunityIcons",
