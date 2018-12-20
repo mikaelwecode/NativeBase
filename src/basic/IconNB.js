@@ -91,7 +91,7 @@ IconNB.propTypes = {
     "AntDesign",
     "Entypo",
     "EvilIcons",
-    "Feather"
+    "Feather",
     "Foundation",
     "Ionicons",
     "MaterialCommunityIcons",
